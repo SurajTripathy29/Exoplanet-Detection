@@ -3,11 +3,11 @@ This machine learning project aims to detect exoplanets in stellar light curves 
 
 Key Steps:
 
-Data Exploration: Analyzed dataset shape, checked for null values, and visualized label distribution.
-Data Preprocessing: Replaced labels (2 with 1, 1 with 0) for binary classification. Handled outliers using KNN sensitivity.
-Feature Scaling: Applied standardization to independent features for model compatibility.
-Model Training: Utilized KNN classifier with 5 neighbors and Euclidean distance metric.
-Model Evaluation: Assessed the model's performance using accuracy, classification report, confusion matrix, and ROC-AUC.
+1.Data Exploration: Analyzed dataset shape, checked for null values, and visualized label distribution.
+2.Data Preprocessing: Replaced labels (2 with 1, 1 with 0) for binary classification. Handled outliers using KNN sensitivity.
+3.Feature Scaling: Applied standardization to independent features for model compatibility.
+4.Model Training: Utilized KNN classifier with 5 neighbors and Euclidean distance metric.
+5.Model Evaluation: Assessed the model's performance using accuracy, classification report, confusion matrix, and ROC-AUC.
 This project demonstrates the application of machine learning to identify exoplanets in stellar observations, emphasizing data preprocessing and model evaluation for robust results.
 
 Libraries Used: pandas, seaborn, numpy, matplotlib, scikit-learn
